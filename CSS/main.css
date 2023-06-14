@@ -1,0 +1,174 @@
+@import 'forum.css';
+@import 'sobre.css';
+@import 'blog.css';
+@import 'index.css';
+
+/* estilo padrão */
+
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto Mono', monoespaçado;
+        background-color: #f8f8f8;
+        color: #333;
+      }
+      
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+      
+      h1, h2, h3 {
+        margin: 0;
+      }
+    
+    /* Barra de navegação */
+    
+    nav {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ffffff;
+      padding: 20px 40px;
+      box-shadow: 0 0px 32px 16px rgba(0, 0, 0, 0.03);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 100;
+      box-sizing: border-box;
+    }
+    
+    header {
+        margin-bottom: 100px;
+      }
+    
+    .logo {
+      height: 70px;
+      width: auto;
+      max-height: 100%;
+      max-width: 100%;
+      align-self: auto;
+    }
+    
+    .logo img {
+      height: 75px;
+      width: auto;
+      max-height: 100%;
+      max-width: 100%;
+    }
+    
+    .navigation {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      gap: 30px;
+    }
+    
+    .navigation a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 15px;
+      background: #000;
+      font-weight: bold;
+    }
+
+    .quiz-button {
+      text-decoration: none;
+      background-color: #A26A42;
+      padding: 10px 15px;
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    
+    .profile-image img {
+      width: inherit;
+      height: inherit;
+    }
+    
+ 
+    
+    .lclose {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .lclose:hover,
+    .lclose:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+   
+    .profile-image img {
+      width: inherit;
+      height: inherit;
+    }
+    
+    .profile-image a {
+      width: inherit;
+      height: inherit;
+    }
+
+    footer {
+      background-color: #D1B5A1;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    .footer-section {
+      flex: 1;
+      margin-right: 20px;
+    }
+    
+    .footer-section h3 {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .footer-section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .footer-section ul li {
+      margin-bottom: 5px;
+    }
+    
+    .footer-section ul li a {
+      text-decoration: none;
+      color: #666;
+    }
+    
+    .footer-section form {
+      margin-top: 10px;
+    }
+    
+    .footer-section form input[type="email"] {
+      width: 200px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .footer-section form button {
+      padding: 5px 10px;
+      background-color: #A26A42;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }

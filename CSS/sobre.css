@@ -1,0 +1,142 @@
+  /* PAGINA SOBRE, CONTEUDO */
+  body {
+    font-family: 'Bitter', serif;
+  }
+  
+  .logo-centro {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.logo-centro img {
+    width: auto; 
+  height: 200px; 
+}
+
+  .about {
+    margin-top: 20px;
+    padding: 30px;
+    }
+
+   
+    
+    .about-section h2 {
+      font-size: 24px;
+      color: #333;
+    
+    }
+    
+    .about-section p {
+      font-size: 16px;
+      color: #666;
+    }
+    
+    .founders-section {
+      margin-top: 30px;
+    }
+    
+    .founders-section h2 {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      padding-top: 2rem;
+    }
+    
+    .founders-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    
+    .founders-card {
+      width: 300px;
+      height: 200px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    
+    .founders-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .founders-card img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .founders-card h3 {
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+      margin-bottom: 5px;
+      text-decoration: none;
+    }
+
+    .founders-card a{
+      text-decoration: none;
+      color: #000000;
+    }
+    
+    .founders-card p {
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    
+   
+    
+    /* Responsive styles */
+    
+    @media (max-width: 768px) {
+      .about {
+        margin-top: 60px;
+        padding: 10px;
+      }
+    
+      .about-section h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    
+      .about-section p {
+        font-size: 14px;
+      }
+    
+      .founders-section h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    
+      .founders-card img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 5px;
+      }
+    
+      .founders-card h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+    
+      .founders-card p {
+        font-size: 12px;
+      }
+    
+ 
+    }
+    
