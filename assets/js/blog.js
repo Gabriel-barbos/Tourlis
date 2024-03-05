@@ -79,7 +79,7 @@ const postagens = [
 
 // Index
 
-const postImagePath = '../IMG/posts';
+const postImagePath = 'assets/img/posts/';
 
 const contentReelElement = document.querySelector('.content-reel');
 
